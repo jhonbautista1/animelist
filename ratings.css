@@ -2,15 +2,18 @@
 	margin:0;
 	padding: 0;
 	font-family:'Poppins', san-serif;
-	color: white;
 }
 
 body{
 	display: flex;
 	flex-direction: column;
 	background: black;
+	
+	
 }
 header {
+	display: flex;
+	flex-direction: column;
 	margin-top: 30px;
 	position: sticky;
 	top: 0;
@@ -52,50 +55,6 @@ nav a span{
 nav a:hover span{
 	transform: scale(1) translateY(0);
 	opacity: 1;
-	
-}
-
-h2{
-	margin-top: 45px;
-	text-align: center;
-	color:white;
-	margin-bottom: 25px;
-	
-}
-
-figcaption{
-	width: 20%;
-}
-
-table{
-	border: 2px solid Gray;
-	margin-top: 4px;
-	
-}
-
-td {
-	padding: 30px;
-	text-align: top;
-}
-
-main{
-	max-width: 100%;
-}
-
-main{
-	padding: 6px;
-}
-	
-p:hover {
-
-	color:#FFD700;
-	transition: .5s;
-	
-}	
-
-h2:hover{
-	color: #FFD700;
-	transition: .5s;
 }
 
 .logo{
@@ -118,6 +77,23 @@ nav{
 	
 }
 
-div {
-	margin-top: 5px;
+h1{
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	font-family: 'Pappyrus';
+}
+
+h1 {
+	margin-top: 45px;
+	color:white;
+	text-align:center;
+	margin-bottom: 20px;
+	
+}
+h1:hover{
+	color: #FFD700;
+	transition: .5s;
+	height: auto;
+	
 }
